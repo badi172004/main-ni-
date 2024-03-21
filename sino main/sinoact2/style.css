@@ -1,0 +1,117 @@
+
+body {
+  background: url("https://wallpapercave.com/wp/wp2255929.jpg") no-repeat center center fixed;
+  background-size:cover;
+  color: black;
+  text-align: justify;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+
+.button:hover {
+  color: blue;
+  background: white;
+}
+
+
+.button:active {
+  color: green;
+}
+
+.image-container {
+  display: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 200px; 
+  height: auto;
+  margin-right: 20px;
+}
+
+.text-container {
+  color: black;
+  text-align: center;
+}
+
+header {
+  background-color: clear;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+section {
+  margin: auto;
+  padding: auto;
+  color: black;
+  text-align: center;
+}
+
+article{
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid black;
+  color: black;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+.content {
+  text-align: center;
+  padding: 20px; 
+}
+
+.aligned-lists {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.list-container {
+  margin-right: 20px; 
+  border: 1px solid; 
+  padding: 10px;
+  color: black;
+  text-align: left;
+  backdrop-filter: blur(10px);
+}
+
+.list-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.aligned-lists ul {
+  list-style: none;
+  padding: 0;
+}
+
+.aligned-lists li {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.left-list li:nth-child(1) { order: 3; }
+.left-list li:nth-child(2) { order: 2; }
+.left-list li:nth-child(3) { order: 1; }
+
+footer {
+  background-color: clear;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
