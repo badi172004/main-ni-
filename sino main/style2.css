@@ -9,6 +9,7 @@
     width: 100%;
     padding: 78px 0px;
     background-color: #191919;
+    background-image: url("https://c.wallhere.com/photos/30/2a/1920x1080_px_abstract_cube_Glowing_Planetary_Rings_Space_Art_stars-782063.jpg!d");
 }
 
 .about img {
@@ -51,7 +52,7 @@ span {
 }
 
 .about-text p {
-    color: rgba(17, 124, 173, 0.8);
+    color: rgb(255, 255, 255);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 20px;

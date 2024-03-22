@@ -36,9 +36,10 @@ body {
 }
 
 .image-container img {
-  width: 200px; 
+  width: 100px; 
   height: auto;
   margin-right: 20px;
+  border-radius: 50%;
 }
 
 .text-container {
