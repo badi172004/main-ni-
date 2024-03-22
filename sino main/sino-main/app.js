@@ -1,10 +1,10 @@
-import { sectwoDiv } from "./card.js"
-import { rightDiv } from "./image.js"
-import { leftDiv } from "./info.js"
+import { sectwoDiv } from "../sino-main/card.js"
+import { rightDiv } from "../sino-main/image.js"
+import { leftDiv } from "../sino-main/info.js"
 
 const dataOne = {
     title:      "TIRADA YA WA LAGI",
-    para:       "The curriculum of a BSIT program usually includes courses in areas such as computer programming, software development, database management, networking, .",
+    para:       "As a BSIT i learn a lot of this topic also html and programming, software development, database management, networking, .",
     button:     "Contact me",
     image:      "gun.png"
 }
